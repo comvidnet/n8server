@@ -110,6 +110,7 @@ app.get('/getRoute', function (req, res) {
 
     res.json(route);
 });
+app.use('/img', express.static(__dirname + '/img'));
 
 var server = app.listen(3000, function () {
     var host = 'localhost';

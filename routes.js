@@ -65,7 +65,7 @@ exports.routeData = function() {
     //    next: 'Openbare Bibliotheek Amsterdam'
     //});
     rm2.push({
-        location: 'Openbare Bibliotheek Amsterdam',
+        location: 'Openbare Bibliotheek Amsterdam Oosterdokskade',
         type: 'museum',
         time: 60,
         next: 'Eye Filmmuseum',

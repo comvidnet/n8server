@@ -123,26 +123,30 @@ app.get('/getRoute', function (req, res) {
 
             }
             else { //No route just museum
-                route.route = [{
-                    location: 'user',
-                    type: 'user',
-                    time: 2,
-                    latitude: 1,
-                    longitude: 2,
-                    next: route.museum.location
-                }]
+                route.route = {
+                    route:[{
+                        location: 'user',
+                        type: 'user',
+                        time: 2,
+                        latitude: 1,
+                        longitude: 2,
+                        next: route.museum.location
+                    }]
+                }
             }
         }
     }
     else {
-        route.route = [{
-            location: 'user',
-            type: 'user',
-            time: 2,
-            latitude: 1,
-            longitude: 2,
-            next: route.museum.location
-        }];
+        route.route = {
+            route: [{
+                location: 'user',
+                type: 'user',
+                time: 2,
+                latitude: 1,
+                longitude: 2,
+                next: route.museum.location
+            }]
+        };
     }
 
     //route.route = routes[0];

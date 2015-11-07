@@ -46,7 +46,7 @@ exports.routeData = function() {
         next: 'Rembrandt House Museum'
     });
     rm2.push({
-        location: 'Rembrandt House Museum',
+        location: 'Museum Het Rembrandhuis',
         type: 'museum',
         time: 60,
         next: 'Het Scheepvaartmuseum'
@@ -56,14 +56,14 @@ exports.routeData = function() {
         type: 'food',
         time: 60,
 
-        next: 'Hannekes Boom',
+        next: 'Openbare Bibliotheek Amsterdam',
     });
-    rm2.push({
-        location: 'Hannekes Boom',
-        type: 'architecture',
-        time: 15,
-        next: 'Openbare Bibliotheek Amsterdam'
-    });
+    //rm2.push({
+    //    location: 'Hannekes Boom',
+    //    type: 'architecture',
+    //    time: 15,
+    //    next: 'Openbare Bibliotheek Amsterdam'
+    //});
     rm2.push({
         location: 'Openbare Bibliotheek Amsterdam',
         type: 'museum',

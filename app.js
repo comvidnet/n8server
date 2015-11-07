@@ -86,7 +86,11 @@ app.get('/getRoute', function (req, res) {
     var route = {};
     route.museum = {
         location: m.location
+
     };
+    if(m.queue) {
+        route.museum.queuelength = m.queue.queuelength;
+    }
 
     route.time = getBestTime(currentTime, m);
 
